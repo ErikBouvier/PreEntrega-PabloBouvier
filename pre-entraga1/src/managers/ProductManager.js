@@ -43,8 +43,8 @@ export default class ProductManager {
 
     async createOne(data, file){
         try {
-            const { title, description, code, price, status, stock, category } = data;
-            if (!title || !description || !code || !price || !status || !stock || !category) {
+            const { title, description, code, price, status, stock, category, thumbnails } = data;
+            if (!title || !description || !code || !price || !status || !stock || !category ) {
                 throw new ErrorManager('Faltan datos del producto', 400);
             }
 
@@ -57,7 +57,7 @@ export default class ProductManager {
                 status: convertToBoolean(status),
                 stock: Number(stock),
                 category,
-                thumbnail: file?.filename || null,
+                thumbnail: file?.filename || thumbnails,
             };
 
             this.#products.push(product);

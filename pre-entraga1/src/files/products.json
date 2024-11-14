@@ -1,1 +1,12 @@
-[]
+[
+	{
+		"id": 1,
+		"title": "heladera",
+		"description": "heladera",
+		"code": "h1",
+		"price": 100,
+		"status": true,
+		"stock": 5,
+		"category": "hogar"
+	}
+]
