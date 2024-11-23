@@ -1,12 +1,72 @@
 [
 	{
-		"id": 1,
-		"title": "heladera",
-		"description": "heladera",
-		"code": "h1",
-		"price": 100,
+		"id": 2,
+		"title": "Laptop",
+		"description": "gamer",
+		"code": "pc10",
+		"price": 500,
 		"status": true,
 		"stock": 5,
-		"category": "hogar"
+		"category": "informatica"
+	},
+	{
+		"id": 3,
+		"title": "Champion",
+		"description": "Calzado Nike",
+		"code": "NI1",
+		"price": 120,
+		"status": true,
+		"stock": 15,
+		"category": "sports"
+	},
+	{
+		"id": 4,
+		"title": "Carpa",
+		"description": "Carpa para 8 personas",
+		"code": "C1c",
+		"price": 340,
+		"status": true,
+		"stock": 5,
+		"category": "free-time"
+	},
+	{
+		"id": 5,
+		"title": "El señor de los anillos",
+		"description": "2da edicion",
+		"code": "bk10",
+		"price": 25,
+		"status": true,
+		"stock": 2,
+		"category": "books"
+	},
+	{
+		"id": 7,
+		"title": "paraguas",
+		"description": "paraguas",
+		"code": "p1",
+		"price": 5,
+		"status": true,
+		"stock": 20,
+		"category": "several"
+	},
+	{
+		"id": 8,
+		"title": "Silla",
+		"description": "Silla comedor pequeña",
+		"code": "1s",
+		"price": 25,
+		"status": true,
+		"stock": 10,
+		"category": "home"
+	},
+	{
+		"id": 9,
+		"title": "Teclado",
+		"description": "Teclado mecanico gamer",
+		"code": "T1",
+		"price": 50,
+		"status": true,
+		"stock": 5,
+		"category": "electronics"
 	}
 ]
